@@ -20,7 +20,6 @@ driver = webdriver.Edge(edge_path)
 driver.get(liens[iteration])
 driver.set_window_size(600, 6000) # set window size
 
-
 time.sleep(5) # necessary time to click the 'Charger la suite' button
 
 
